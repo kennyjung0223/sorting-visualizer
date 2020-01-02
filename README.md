@@ -1,3 +1,52 @@
+# Sorting Visualizer
+I built this project to solidify my understand for sorting algorithms. At the same time, I wanted to learn how to develop a React app, so I decided it would be awesome to build a visualizer that others can also use. Big credit to [CSALS](https://github.com/CSALS) who's source I used as a tutorial to building this sorting visualizer. 
+
+Below, you can read about how the algorithms work and their time complexities. Cheers!
+
+# Time Complexities of these algorithms
+Sorting algorithms are algorithms that sort a list of elements (numbers, names, anything, literally). For this sorting visualizer, the application sorts the array from least to greatest value. 
+
+Note: space DOES NOT affect time complexity. For example, if I had an array [6], then one could say the time complexity is O(1). But n = 1, so the time complexity is also O(n) with that logic. Don't be fooled!
+
+## Insertion Sort
+Time Complexities
+* Worst Case: O(n^2)
+* Average Case: O(n^2)
+* Best Case: O(n)
+
+to be updated
+
+## Selection Sort
+Time Complexities
+* Worst Case: O(n^2)
+* Average Case: O(n^2)
+* Best Case: O(n^2)
+
+to be updated
+
+## Merge Sort
+Time Complexities
+* Worst Case: O(nlog(n))
+* Average Case: O(nlog(n))
+* Best Case: O(nlog(n))
+
+to be updated
+
+## Quick Sort
+Time Complexities
+* Worst Case: O(n^2)
+* Average Case: O(nlog(n))
+* Best Case: O(nlog(n))
+
+to be updated
+
+## Future adjustments
+* update readme.file some day (accidentally deleted the file and way too lazy to write it again)-: )
+* user adjusts array size
+* displaying the index location
+* disabling hover effect while algorithm is running
+* big thanks to my data structures professor, [Clement Mihailescu](https://github.com/clementmihailescu) and [CSALS](https://github.com/CSALS) for the project idea and inspiration!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
