@@ -1,0 +1,34 @@
+.array-container {
+    position:absolute;
+    left:40px;
+    bottom:0px;
+}
+
+.array-bar {
+    width:5px;
+    background-color:turquoise;
+    display:inline-block;
+    margin:0 2px;
+}
+
+.buttons button {
+    position:relative;
+    top:50px;
+    background-color:#47535E;
+    color:#EAF0F1;
+    cursor:pointer;
+    text-align:center;
+    text-decoration:none;
+    outline:0;
+    border:1px solid #EAF0F1;
+    font: 15px "Century Gothic", Futura, sans-serif;
+}
+
+.buttons button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+.buttons button:hover {
+    background-color:#F8F47C;
+    color:grey;
+}
